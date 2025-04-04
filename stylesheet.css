@@ -1,0 +1,63 @@
+html {
+    background-color: #FFFBF8;
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+ul, ol {
+    list-style-type:none;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row; 
+    align-items: center;     
+    justify-content: center; 
+    gap: 40px;
+  }
+
+  .flex-container li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #pink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #EBCEC9;
+  }
+
+  #green {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #5E786D;
+  }
+
+  #flowers {
+    height: 300px;
+    width: 260px;
+  }
+
+  #flowerName {
+    font-size: 38px;
+    font-weight: lighter;
+    font-family: cursive;
+    color: #7d773d;
+  }
+
+  #order {
+    color: #FFFBF8; 
+    font-weight: 600; 
+    font-size: 20px;
+  }
