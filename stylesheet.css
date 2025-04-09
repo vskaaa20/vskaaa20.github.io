@@ -61,3 +61,26 @@ ul, ol {
     font-weight: 600; 
     font-size: 20px;
   }
+
+  #table {
+    padding: auto;
+  }
+
+  table {
+    border-collapse: collapse;
+    margin: 40px auto;
+    width: 60%;
+    font-size: 18px;
+    text-align: left;
+  }
+
+  td {
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+}
+
+#grey {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #303232;
+}
