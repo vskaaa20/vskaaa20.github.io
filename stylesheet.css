@@ -1,71 +1,82 @@
 html {
     background-color: #FFFBF8;
     text-align: center;
-}
-
-h1 {
+  }
+  
+  h1 {
     font-size: 60px;
     text-align: center;
     font-family: cursive;
-}
-
-h2 {
+  }
+  
+  h2 {
     font-size: 38px;
     font-weight: 500;
-}
-
-ul, ol {
+  }
+  
+  ul, ol {
     list-style-type:none;
-}
-
-.flex-container {
-    display: flex;
-    flex-direction: row; 
-    align-items: center;     
+  }
+  
+  /* Flex Boxes */
+  
+  .flex-container {
+    display: flex; /* row */
+    align-items: center;
     justify-content: center; 
     gap: 40px;
   }
-
+  
   .flex-container li {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-
+  
+  /* Section Colors */
+  
   .pink {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #EBCEC9;
   }
-
+  
   .green {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #5E786D;
   }
-
+  
+  .grey {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #303232;
+  }
+  
+  /* Flower section */
+  
   #flowers {
     height: 300px;
     width: 260px;
   }
-
+  
   #flowerName {
     font-size: 38px;
     font-weight: lighter;
     font-family: cursive;
     color: #7d773d;
   }
-
+  
+  /* Order section */
+  
   #order {
     color: #FFFBF8; 
     font-weight: 600; 
     font-size: 20px;
   }
-
-  #table {
-    padding: auto;
-  }
-
+  
+  /* Table Styling */
+  
   table {
     border-collapse: collapse;
     margin: 40px auto;
@@ -73,14 +84,37 @@ ul, ol {
     font-size: 18px;
     text-align: left;
   }
-
-  td {
+  
+  td { /* spacing to table and thinner lines*/
     border: 1px solid #ccc;
     padding: 12px 20px;
-}
-
-.grey {
-    padding-top: 10px;
-    padding-bottom: 10px;
+  }
+  
+  
+  /* Navbar styling */
+  
+  .navbar { /* create navbar */
     background-color: #303232;
-}
+    padding: 10px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar ul { /* thinner */
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li { /* in a row and add some spacing between */
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar a { /* navbar text*/
+    text-decoration: none;
+    color: #FFFBF8;
+    font-weight: bold;
+  }
