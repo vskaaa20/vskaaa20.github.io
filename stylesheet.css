@@ -32,13 +32,13 @@ ul, ol {
     align-items: center;
   }
 
-  #pink {
+  .pink {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #EBCEC9;
   }
 
-  #green {
+  .green {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #5E786D;
@@ -79,7 +79,7 @@ ul, ol {
     padding: 12px 20px;
 }
 
-#grey {
+.grey {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #303232;
